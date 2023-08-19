@@ -5,7 +5,7 @@ import { Channel, Things } from "../typings";
 import fetch from "node-fetch";
 import Websocket from "ws";
 
-//modifying for simple usage
+// modifying for simple usage
 
 export const executeWebhook = (things: Things): void => {
     console.log(serverId, channelId);
