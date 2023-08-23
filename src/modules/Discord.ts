@@ -12,7 +12,7 @@ export const executeWebhook = (things: Things): void => {
     const wsClient = new WebhookClient({ url: things.url });
     wsClient.send(things).catch((e: any) => console.error(e));
 };
-
+//for creating a new channel
 export const createChannel = async (
     name: string,
     newId: string,
