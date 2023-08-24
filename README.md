@@ -24,6 +24,7 @@ Remember to never share your Discord token with anyone. If you are not sure what
 This project is an educational purpose only. I am not responsible for any misuse or damage caused by this script.
 
 **Use at your own risk.**
+main
 
 ## About
 
