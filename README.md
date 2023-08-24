@@ -81,9 +81,5 @@ yarn build && yarn start
 This project is under the license of BSD 3-Clause. For more details, see the [LICENSE](LICENSE) file.
 
 
-Made with :heart: by <a href="https://github.com/tiramitzu" target="_blank">Tiramitzu</a>
-
-&#xa0;
-
 <a href="#top">Back to top</a>
 <hr>
