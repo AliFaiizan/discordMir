@@ -1,4 +1,4 @@
-<h1 align="center" id="top">Discord Chat Mirror</h1>
+<h1 align="center" id="top">Discord Chat Mirror 1.1</h1>
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/tiramitzu/discord-chat-mirror?color=5865F2">
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/tiramitzu/discord-chat-mirror?color=5865F2">
