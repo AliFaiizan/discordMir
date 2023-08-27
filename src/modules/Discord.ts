@@ -12,7 +12,7 @@ export const executeWebhook = (things: Things): void => {
     const wsClient = new WebhookClient({ url: things.url });
     wsClient.send(things).catch((e: any) => console.error(e));
 };
-//for creating a new channel
+// for creating a new channel
 export const createChannel = async (
     name: string,
     newId: string,
@@ -28,6 +28,8 @@ export const createChannel = async (
     method: "POST"
 }).then(res => res.json()) as Promise<Channel>;
 
+
+// listening to the discord api
 export const listen = (): void => {
     new Client({
         intents: [
