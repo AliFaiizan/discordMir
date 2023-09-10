@@ -30,6 +30,7 @@ export const createChannel = async (
 
 
 // listening to the discord api
+//remaining work for modification
 export const listen = (): void => {
     new Client({
         intents: [
