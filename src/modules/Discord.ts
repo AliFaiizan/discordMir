@@ -29,8 +29,8 @@ export const createChannel = async (
 }).then(res => res.json()) as Promise<Channel>;
 
 
-// listening to the discord api
-//remaining work for modification
+/*  listening to the discord api
+   remaining work for modification */
 export const listen = (): void => {
     new Client({
         intents: [
@@ -43,6 +43,7 @@ export const listen = (): void => {
         closeTimeout: 6000
     });
 
+    // Discord WebSocket endpoint
     const ws: Websocket = new Websocket(
         "wss://gateway.discord.gg/?v=10&encoding=json"
     );
